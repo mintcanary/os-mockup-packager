@@ -9,6 +9,9 @@
     <link href='//fonts.googleapis.com/css?family=Hind:400,500,600' rel='stylesheet' type='text/css'>
     
     <link rel="stylesheet" href="../../css/bootstrap-tour.min.css">
+    <link rel="stylesheet" href="../../css/jquery.mmenu.css">
+    <link rel="stylesheet" href="../../css/jquery.mmenu.autoheight.css">
+    <link rel="stylesheet" href="../../css/jquery.mmenu.multiline.css">
     
     
     <link rel="stylesheet" href="../../css/packager.css">
@@ -79,7 +82,7 @@
   
   
   <div id="column_3">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_3" checked>
@@ -150,6 +153,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_3">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -157,7 +275,7 @@
   
   
   <div id="column_5">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_5" checked>
@@ -228,12 +346,127 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_5">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
   
   <div id="column_6">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_6" checked>
@@ -304,6 +537,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_6">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -311,7 +659,7 @@
   
   
   <div id="column_8">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_8" checked>
@@ -382,6 +730,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_8">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -389,7 +852,7 @@
   
   
   <div id="column_10">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_10" checked>
@@ -460,6 +923,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_10">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -469,7 +1047,7 @@
   
   
   <div id="column_13">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_13" checked>
@@ -540,12 +1118,127 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_13">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
   
   <div id="column_14">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_14" checked>
@@ -616,6 +1309,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_14">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -627,7 +1435,7 @@
   
   
   <div id="column_18">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_18" checked>
@@ -698,6 +1506,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_18">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -705,7 +1628,7 @@
   
   
   <div id="column_20">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_20" checked>
@@ -776,6 +1699,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_20">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -787,7 +1825,7 @@
   
   
   <div id="column_24">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_24" checked>
@@ -858,6 +1896,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_24">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -871,7 +2024,7 @@
   
   
   <div id="column_29">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_29" checked>
@@ -942,12 +2095,127 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_29">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
   
   <div id="column_30">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_30" checked>
@@ -1018,6 +2286,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_30">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -1025,7 +2408,7 @@
   
   
   <div id="column_32">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_32" checked>
@@ -1096,6 +2479,121 @@
       </div>
 
     </div>
+
+    <div class="data-type-select" id="data_type_select_32">
+      <ul>
+         <li>
+            <span>Date</span>
+            <ul>
+              <li>
+                <a>Fiscal year <em class="separator">-</em> <small>The fiscal-year for which the values in this record are relevant</small></a>
+              </li>
+              <li>
+                <span>Fiscal dates <em class="separator">-</em> <small>Specific dates related to fiscal events</small></span>
+                <ul>
+                  <li>
+                    <a>Approval date <em class="separator">-</em> <small>The approval date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Ending Date <em class="separator">-</em> <small>The ending date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Start Date <em class="separator">-</em> <small>The starting date of a specific activity</small></a>
+                  </li>
+                  <li>
+                    <a>Final Payment Date <em class="separator">-</em> <small>Final Payment Date</small></a>
+                  </li>
+                  <li>
+                    <a>First Payment Date <em class="separator">-</em> <small>The date of the first payment for a specific activity</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a>Other date <em class="separator">-</em> <small>An non-specific date related to the values in this record (e.g. transaction date etc.)</small></a>
+              </li>
+            </ul>
+         </li>
+         <li>
+           <span>Classification</span>
+           <ul>
+              <li>
+                <span>Administrative <em class="separator">-</em> <small>The entity responsible for managing the public funds</small></span>
+                <ul>
+                  <li>
+                    <a>Non-standard Administrative Classification <em class="separator">-</em> <small>Administrative Classification that does not adhere to a specific standard</small></a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <span>Economic <em class="separator">-</em> <small>The type of budget and expenditure incurred (e.g.salaries, goods and services, interest payments, or capital spending etc.)</small></span>
+              </li>
+              <li>
+                <span>Functional <em class="separator">-</em> <small>Classification of expenditure according to the purposes and objectives for which they are intended</small></span>
+              </li>
+           </ul>
+          </li>
+         <li>
+           <span>Activity</span>
+           <ul>
+             <li>
+               <span>Non-standard Activity <em class="separator">-</em> <small>Activity codes or labels that do not adhere to a specific standard</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Participating Entities</span>
+           <ul>
+             <li>
+               <span>Administrator <em class="separator">-</em> <small>The body that is authorized to spend the money</small></span>
+             </li>
+             <li>
+               <span>Procurer <em class="separator">-</em> <small>The government entity acting as procurer for the transaction</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Fiscal Attributes</span>
+           <ul>
+             <li>
+               <span>Budgetary Transfers <em class="separator">-</em> <small>Extra properties regarding whether the expenditure contains budgetary transfers</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Geographic</span>
+           <ul>
+             <li>
+               <span>Geographic information <em class="separator">-</em> <small>Geographic information related to the record (e.g. related city, region etc.)</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Identifiers</span>
+           <ul>
+             <li>
+               <span>Budget Line Identifier <em class="separator">-</em> <small>A unique identifier for this budget line</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Amount</span>
+           <ul>
+             <li>
+               <span>Amount <em class="separator">-</em> <small>Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.</small></span>
+             </li>
+           </ul>
+         </li>
+         <li>
+           <span>Other</span>
+           <ul>
+             <li>
+               <span>Unknown Mapping <em class="separator">-</em> <small>Use when no other data type applies to the column</small></span>
+             </li>
+           </ul>
+         </li>
+      </ul>
+    </div>
+
   </div>
   
   
@@ -1107,7 +2605,7 @@
   
   
   <div id="column_36">
-    <div>
+    <div class="inner">
       <header>
         <button type="button" class="remove" aria-label="Remove"><svg><use xlink:href="#icon-trashcan" /></svg></button>
 
@@ -1134,7 +2632,7 @@
   
   
   <div id="column_37">
-    <div>
+    <div class="inner">
       <header>
         <button type="button" class="remove" aria-label="Remove"><svg><use xlink:href="#icon-trashcan" /></svg></button>
 
@@ -1160,7 +2658,7 @@
   
   
   <div class="add">
-    <div>
+    <div class="inner">
       <a>
         <svg><use xlink:href="#icon-circle_plus" /></svg> Add a dimension
       </a>
@@ -1170,7 +2668,7 @@
   
   
   <div class="disabled" id="column_1">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_1" >
@@ -1205,7 +2703,7 @@
   
   
   <div class="disabled" id="column_2">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_2" >
@@ -1242,7 +2740,7 @@
   
   
   <div class="disabled" id="column_4">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_4" >
@@ -1281,7 +2779,7 @@
   
   
   <div class="disabled" id="column_7">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_7" >
@@ -1318,7 +2816,7 @@
   
   
   <div class="disabled" id="column_9">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_9" >
@@ -1355,7 +2853,7 @@
   
   
   <div class="disabled" id="column_11">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_11" >
@@ -1390,7 +2888,7 @@
   
   
   <div class="disabled" id="column_12">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_12" >
@@ -1429,7 +2927,7 @@
   
   
   <div class="disabled" id="column_15">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_15" >
@@ -1464,7 +2962,7 @@
   
   
   <div class="disabled" id="column_16">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_16" >
@@ -1499,7 +2997,7 @@
   
   
   <div class="disabled" id="column_17">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_17" >
@@ -1536,7 +3034,7 @@
   
   
   <div class="disabled" id="column_19">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_19" >
@@ -1573,7 +3071,7 @@
   
   
   <div class="disabled" id="column_21">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_21" >
@@ -1608,7 +3106,7 @@
   
   
   <div class="disabled" id="column_22">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_22" >
@@ -1643,7 +3141,7 @@
   
   
   <div class="disabled" id="column_23">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_23" >
@@ -1680,7 +3178,7 @@
   
   
   <div class="disabled" id="column_25">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_25" >
@@ -1715,7 +3213,7 @@
   
   
   <div class="disabled" id="column_26">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_26" >
@@ -1750,7 +3248,7 @@
   
   
   <div class="disabled" id="column_27">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_27" >
@@ -1785,7 +3283,7 @@
   
   
   <div class="disabled" id="column_28">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_28" >
@@ -1824,7 +3322,7 @@
   
   
   <div class="disabled" id="column_31">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_31" >
@@ -1861,7 +3359,7 @@
   
   
   <div class="disabled" id="column_33">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_33" >
@@ -1896,7 +3394,7 @@
   
   
   <div class="disabled" id="column_34">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_34" >
@@ -1931,7 +3429,7 @@
   
   
   <div class="disabled" id="column_35">
-    <div>
+    <div class="inner">
       <header>
         <div class="toggle">
           <input type="checkbox" name="onoffswitch" id="switch_35" >
@@ -2067,7 +3565,23 @@
   <script src="../../js/main.js"></script>
   
   <script src="../../js/bootstrap-tour.min.js"></script>
+  <script src="../../js/jquery.mmenu.min.js"></script>
+  <script src="../../js/jquery.mmenu.autoheight.min.js"></script>
   <script src="../../js/describe-data.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $("#data_type_select_6").mmenu({
+         offCanvas: false,
+         autoHeight: true,
+         navbar: {
+           title: false
+         },
+         extensions: ["multiline"]
+      });
+
+      $( "#column_6" ).addClass( "data-type-select-active" );
+    });
+  </script>
   
 
 </body>
